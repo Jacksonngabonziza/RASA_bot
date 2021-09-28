@@ -1,0 +1,32 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - thanks
+  - out_of_scope
+
+responses:
+  utter_greet:
+  - text: "muraho neza"
+  - text: "mwiriwe neza"
+  - text: "nabasuhuje"
+
+  utter_thanks:
+  - text: "murakoze kandi muzagaruke"
+  - text: "imana iguhe umugisha"
+  - text: "urakoze nawe"
+
+
+
+  utter_goodbye:
+  - text: "murabeho"
+
+  utter_iamabot:
+  - text: "ndi irobo, ryakozwe hifashishijwe ikoranabuhanga rya Rasa."
+  utter_scope:
+   - text: "Ibyo umbajije ntago mbisobanukiwe,wagerageza ukandika neza cg ukavuga mu bundi buryo"
+session_config:
+  session_expiration_time: 600
+  carry_over_slots_to_new_session: true

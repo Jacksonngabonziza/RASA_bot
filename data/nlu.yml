@@ -1,0 +1,56 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - muraho
+    - mwiriwe
+    - nagusuhuje
+    - salama
+    - vip
+    - salama wowe
+    - wiriwe
+    - waramutse
+    - ni amahoro
+    - vip mwana
+- intent: out_of_scope
+  examples: |
+    - ndashaka piza 
+    - mbwira aho nagura imodoka nziza
+    - utubari badufunguye ?
+    - ese wowe warwaye covid ?
+    - wampaye nimero yawe se?
+    -hello
+
+- intent: goodbye
+  examples: |
+    - ugire umugoroba mwiza
+    - poa poa
+    - sawa
+    - ni aho ubutaha
+    - ijoro ryiza
+    - murabeho
+    - mwirirwe
+    - tuzasubira 
+
+- intent: deny
+  examples: |
+    - oya
+    - wap
+    - reka reka 
+    - ntago aribyo
+    - ndanze
+    - ntago byavamo
+    - wap wap pee
+
+- intent: bot_challenge
+  examples: |
+    - uri irobo?
+    - uri umuntu?
+    - ndimo kuvugana n'irobo?
+    - ndimo kuvugana n'umuntu?
+- intent: thanks
+  examples: |
+    - murakoze 
+    -sawa
+    
