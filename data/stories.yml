@@ -24,8 +24,6 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: deny
-  - action: utter_goodbye
   - intent: thanks
   - action: utter_thanks
   - intent: utter_scope

@@ -1,0 +1,10 @@
+[
+  {
+    "text": "sawa",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.8207191824913025
+    }
+  }
+]

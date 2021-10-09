@@ -7,17 +7,20 @@ intents:
   - thanks
   - out_of_scope
 
+
 responses:
   utter_greet:
-  - text: "muraho neza"
-  - text: "mwiriwe neza"
-  - text: "nabasuhuje"
+  - text: "muraho neza, twabafasha iki?"
+  - text: "mwiriwe neza, twabafasha iki?"
+  - text: "nabasuhuje, twabafasha iki?"
 
   utter_thanks:
   - text: "murakoze kandi muzagaruke"
   - text: "imana iguhe umugisha"
   - text: "urakoze nawe"
 
+  utter_default:
+  - text: "Ibyo umbajije ntago mbisobanukiwe,wagerageza ukandika neza cg ukavuga mu bundi buryo"
 
 
   utter_goodbye:
@@ -28,5 +31,5 @@ responses:
   utter_scope:
    - text: "Ibyo umbajije ntago mbisobanukiwe,wagerageza ukandika neza cg ukavuga mu bundi buryo"
 session_config:
-  session_expiration_time: 600
+  session_expiration_time: 600000
   carry_over_slots_to_new_session: true

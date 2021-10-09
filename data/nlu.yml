@@ -4,6 +4,7 @@ nlu:
 - intent: greet
   examples: |
     - muraho
+    - bite
     - mwiriwe
     - nagusuhuje
     - salama
@@ -13,15 +14,193 @@ nlu:
     - waramutse
     - ni amahoro
     - vip mwana
+    - amakuru
+    
 - intent: out_of_scope
   examples: |
     - ndashaka piza 
     - mbwira aho nagura imodoka nziza
-    - utubari badufunguye ?
-    - ese wowe warwaye covid ?
-    - wampaye nimero yawe se?
-    -hello
-
+    - utubari badufunguye 
+    - ese wowe warwaye covid 
+    - wampaye nimero yawe se
+    - Ikirere kimeze gute ubu
+    - ndashonje
+    - ndashaka gutumiza ibiryo
+    - 2+2 ni kangahe
+    - perezida wa amerika ninde
+    - perezisda wa amerika ni nde
+    - ndashaka kumenya uko ikirere kimeze
+    - ubuzima busobanuye iki
+    - firigo ntago ikora
+    - Televiziyo yanjy ntago ikora
+    - ndashaka pizza
+    - imashini yanjy yo kumesa nabwo ikora
+    - ni mu uwuhe mwaka
+    - Tumiza pizza
+    - ndashaka gutumiza piza
+    - ikirere kimeze gute uyu munsi 
+    - ikirere kimeze gute 
+    - ni gihe ki uyu munsi
+    - ndakubaza ikibazo kiri hanze yimbibi
+    - 4+2=?
+    - nyuma yo kwiyandikisha ndabona nsigaranye amafaranga aboneka 0.000000.aya mafaranga aboneka ahagarariye iki
+    - uriteguye
+    - ariko uri urubuga rwicyongereza 
+    - nshobora kubanza kukubaza ibibazo 
+    - nshobora gupfa
+    - nshobora kubona hamburger
+    - youtube ishobora kuvuga
+    - Ushobora kongera kumpamagara nyuma
+    - ushobora kumpa ijambo ryibanga ryububiko bwamakuru yawe
+    - ushobora kumpa ijambo ryibanga ryububiko bwamakuru yawe
+    - ushobora gukora sandwiches
+    - ushobora kunyoherereza tagisi
+    - ngomba kubyemera
+    - uzi kevin pelton
+    - shakisha akazu ka piza hafi
+    - twigeze duhura mbere
+    - HomeBase yamamazwa nkumuryango. Hariho uburyo bwo gusabana nabandi banyamuryango
+    - Bifata igihe kingana iki Rasa kubaka chatbot?
+    - Nari maze kukubwira! Ndi shitmuncher
+    - ndi umukoresha
+    - Ndi umusinzi
+    - Ndi umusinzi
+    - ndashonje
+    - Ndagerageza kubaka imwe, kandi nakoze ubushakashatsi mbere, ariko sindakora imirimo yintoki
+    - nshobora kubona iyi nyandiko yera iri mu mweru wijimye..
+    - nahinduye imyumvire yanjye
+    - namaze kuyenstara
+    - nkeneye GP muri 94301
+    - nkeneye GP muri 94301
+    - Nkeneye inshuti yumukobwa
+    - Nkeneye kurya keke
+    - Ndashaka kugura indege
+    - Ndashaka kurongora
+    - ndashaka mudosobwa ngendanwa nshya
+    - Ndashaka gufata  hoteri
+    - Ndashaka igikoni cyabafaransa
+    - ndashaka pizza
+    - ndashaka gupfa
+    - ndashaka gutumiza piza
+    - Ndashaka gukoresha umuyoboro
+    - Nzagenzura
+    - ndi shitmuncher
+    - Ese koko Rasa izi ubwenge?
+    - ese  iyi ni Chatbot ikorera ku Intego?
+    - ese uyu munsi ni kuwa gatandatu?
+    - nyoherereza imeyiri yamabwiriza
+    - nkorera sandwich
+    - NLW
+    - izina ryiza
+    - nonaha
+    - Pizza bot
+    - ongeramo
+    - ngurisha ikintu 
+    - Kugerageza ntabwo bikora
+    - ikirere kimeze neza 
+    - uy munsi
+    - Gerageza yacitse
+    - uyu munsi ni kuwa kangahe
+    - ejo hashize wariye iki?
+    - niki ukunda
+    - uyu munsi ni taliki zingahe
+    - Ibyo ukunda ni ibihe
+    - Ni iki kigutera kuba mwiza kuruta umuntu?
+    - 1 + 1 ni iki
+    - youtube ikora iki
+    - Sisitemu yawe yinyuma niyihe
+    - Ndihe ubu
+    - Ndihe 
+    - Ninde
+    - Abakiriya bawe ni bande
+    - Kuki udasubiza
+    - Kuki amanota yanjye yicyizere yashyizwe kuri 50 nyuma yo kurangiza kwiyandikisha
+    - Nturibumbaza uko meze
+    - Uri ubururu
+    - Kristin, ndashaka kurongora
+    - umudage
+    - imbeba yamenyereye izagera kumuryango wawe muminsi mike iri imbere
+    - uri ingaragu
+    - nanone
+    - alexa tumiza toni 5 za natrium chloride
+    - no gukora urusaku rwinkoko muri terefone
+    - ikinyamakuru gikwiye ifatabuguzi
+    - uri facebook
+    - uri,facebook
+    - uri ingaragu
+    - uri dev
+    - uri umurusiya
+    - urarwaye
+    - uri vegan
+    - kuruta wowe
+    - zigama itike
+    - ariko nari nabikubwiye
+    - ariko niba rasa ari ubunt kuberiki nkenera itsinda ryabagurisha
+    - gura kimwe 
+    - gura imbuga 
+    - mpamagara papa
+    - twakomeza kwandikirana 
+    - ushobora kuzigama ibya ninjoro
+    - urashobora kunshimisha
+    - washobora guteka ibya ninjoro
+    - wampa igikombe cyikawa
+    - washobora kumfasha kuri aya ma dosiye
+    - wantiza ku ma dosiye yawe
+    - wantiza ku ma dosiye yawe
+    - ushiobora kwigira ku biganiro  byawe
+    - ushobora kuvuga kuri politike
+    - ushobora gusobanukirwa
+    - ntago ubona
+    - chgfhgh
+    - igishinwa yego?
+    - ubukonje
+    - nyumva,gerageza 
+    - ihuze na alexa
+    - cr
+    - serivise yabakiriya
+    - nigeze nkwangiza
+    - ibya ninjoro
+    - wizerera Imana
+    - ugira nimero ya telefone
+    - ugira ifoto yawe
+    - uranzi
+    - uzi ras
+    - ukunda foromaje
+    - ukunda umupira wamaguru
+    - ukunda film
+    - ugurisha ama robo
+    - urifuza ko twashakana
+    - dosiyene
+    - muganga 
+    - ikintu cyose
+    - urugero rwa chatbot
+    - jenoside
+    - nshakira uwo duhuje ikipe
+    - mpa inshuti yumukobwa 
+    - mpa ibiryo
+    - subirayo
+    - google
+    - byiza cyane,ndashaka kugura inzu
+    - ihangane gato,reka ngishake
+    - wari wabona Keith relly
+    - mfasha na Alma Abrams
+    - ntiza ubuzima bwawe
+    - uraho mama muto,reka nkongorere
+    - uraho,nakwandikiye mu minsi ishize ariko ntago na kimwe ndabona , amakuru mashya
+    - gute
+    - gute kuri NYC
+    - ipusi za jackson zimeze gute
+    - abana bameze gute
+    - nababona gute
+    - ibi nabisuzuma  gute
+    - bigenda gute ngo uvuge yeg
+    - wiga gute
+    - Rasa ni nziza gute
+    - ni gute igereranwa na alexa
+    - umaze igihe kinganiki ku murongo
+    - harabura igihe kingana niiki ngo verisiyo yikurikira ijye ahagaragara
+    - imirongo ingahe  ya ama kode
+    - 10+89 ni angahe
 - intent: goodbye
   examples: |
     - ugire umugoroba mwiza
@@ -31,26 +210,14 @@ nlu:
     - ijoro ryiza
     - murabeho
     - mwirirwe
-    - tuzasubira 
-
-- intent: deny
+    - tuzasubira
+- intent: thanks
   examples: |
-    - oya
-    - wap
-    - reka reka 
-    - ntago aribyo
-    - ndanze
-    - ntago byavamo
-    - wap wap pee
-
+    - murakoze 
+    -sawa
 - intent: bot_challenge
   examples: |
     - uri irobo?
     - uri umuntu?
     - ndimo kuvugana n'irobo?
     - ndimo kuvugana n'umuntu?
-- intent: thanks
-  examples: |
-    - murakoze 
-    -sawa
-    
